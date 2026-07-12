@@ -16,9 +16,36 @@
 }
 
 .sidebar{
-	background-color: #4CBCF5;
+	color: #fff;
+	background-color: #3599F2;
+	font-size: 1em;
+	font-weight: 800;
 	grid-area: sidebar;
+	display: grid;
+	grid-template: 10% 35% 15% / 1fr
 }
+
+.sidebar .side-text {
+	margin-left: 20px;
+}
+
+.dash-logo,
+.nav > div,
+.tools > div {
+	display: flex;
+	align-items: center;
+}
+
+.dash-logo > span{
+	font-size: 1.4em;
+	margin-left: 10px;
+}
+
+.nav > div,
+.tools > div {
+	margin-top: 18px;
+}
+
 
 .section{
 	background-color: #C7CCD1;
@@ -43,4 +70,17 @@
 .trending{
 	background-color: #fef;
 	grid-area: trending;
+}
+
+.icon{
+	height: 22px;
+	width: 22px;
+	margin-left: 30px;
+
+}
+
+.board-icon{
+	margin-left: 20px;
+	height: 50px;
+	width: 50px;
 }
